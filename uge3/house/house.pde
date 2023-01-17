@@ -4,10 +4,11 @@ Room house = new Room("Room", false, 100, 300);
 
 void setup() {
   size(800, 800);
-  background(205);
+  
 }
 
 void draw() {
+  background(205);
   // tegn taget
   fill(50);
   triangle(50, 290, 250, 150, 450, 290);
@@ -16,10 +17,10 @@ void draw() {
 }
 
 void mouseClicked() {
-  // lav baggrund
-  background(205);
+  //farve til rect
   fill(105);
   rect(80, 680, 300, 30);
+  //ryd op
   fill(250);
 
   // find ud af om vi tænder eller slukker lyset
